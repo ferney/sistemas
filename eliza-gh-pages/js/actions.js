@@ -70,17 +70,15 @@ function displayChat(){
 	$('#body').scrollTop($('#body')[0].scrollHeight);
 	//console.log($('#body')[0].scrollHeight);
 }
-/*
- * HTML for Eliza's message
- */
+
+
+
 function getElizaMessageHTML(message){
 	return '<div class="chat-message-outter-wrapper"><img src="./assets/imgs/girl.jpg" class="chat-message-icon"><div class="chat-message-wrapper eliza-message"><p class="chat-message-text text-left">' + message + '</p><p class="chat-user-text">Juliana</p></div></div>';
 }
-/*
- * HTML for User's message
- */
+
 function getUserMessageHTML(message){
-	return '<div class="chat-message-outter-wrapper text-right"><div class="chat-message-wrapper you-message"><p class="chat-message-text text-left">' + message + '</p><p class="chat-user-text">You</p></div><img src="./assets/imgs/laptop.png" class="chat-message-icon"></div>';
+	return '<div class="chat-message-outter-wrapper text-right"><div class="chat-message-wrapper you-message"><p class="chat-message-text text-left">' + message + '</p><p class="chat-user-text">Tu</p></div><img src="./assets/imgs/laptop.png" class="chat-message-icon"></div>';
 }
 /*
  * Empty user send textbox
